@@ -58,4 +58,7 @@ mv $file_path1 $file_path2
 
 # copy a file
 cp $file_path1 $file_path2y
+
+# count the number of lines, words, and characters in a file
+wc $file_path
 ```
