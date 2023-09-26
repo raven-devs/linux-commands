@@ -4,6 +4,9 @@
 # print a current user name
 whoami
 
+# return user identity
+id
+
 # print current user id and a current user group id
 echo $UID
 echo $GID

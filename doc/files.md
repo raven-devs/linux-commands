@@ -40,17 +40,14 @@ ls -a | grep $pattern
 # create a file
 touch $file_path
 
-# display a file content
-cat $file_path
-
-# display the last few lines of a file
-tail -f $file_path
-
 # replace a file content
 echo "$data" > $file_path
 
 # append a file content
 echo "$data" >> $file_path
+
+# delete an empty dir
+rmdir $dir_path
 
 # delete a file or a dir
 rm -r $file_path
@@ -61,6 +58,13 @@ mv $file_path1 $file_path2
 
 # copy a file
 cp $file_path1 $file_path2y
+
+# start writing to a file
+> $file_path
+(to exit: command + C)
+
+# empty the content of a file
+true > $file_path
 
 # count the number of lines, words, and characters in a file
 wc $file_path
