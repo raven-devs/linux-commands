@@ -1,6 +1,4 @@
-# Display the last few lines of a text file
-
-## tail
+# Files: tail
 
 Display the last few lines of a text file or a stream of text. It is particularly useful for viewing the most recent entries in log files or monitoring the output of continuously updated files.
 

@@ -10,6 +10,9 @@ cd $dir_path
 # navigate to a root dir
 cd /
 
+# navigate to a parent dir
+cd ../
+
 # refer to a home dir
 ~/
 

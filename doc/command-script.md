@@ -1,27 +1,17 @@
-# Base
+# Command / script
 
 ```bash
-# exit from terminal
-exit
-
-# clear terminal
-clear
-
-# execute a script and assign result to a variable
+# execute a script and assign the result to a variable
 result=$(ls -a) && echo $result
 result1=$(whoami) && result2=$(date) && echo "name: $result1, date: $result2"
 
-# manual for a command
+# manual (help) for a command
 man $command
+
+# help for a command
+$command --help
 
 # view the location of a command
 whereis $command
 whereis ls
-
-# OS information
-uname
-uname -a
-
-# file system information
-df
 ```

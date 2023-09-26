@@ -1,6 +1,4 @@
-# Find
-
-## find
+# Files search: find
 
 Search for files and directories within a specified directory hierarchy based on various criteria.
 

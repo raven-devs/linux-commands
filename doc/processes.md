@@ -1,6 +1,4 @@
-# Processes: ps
-
-Process status.
+# Processes
 
 - <https://ss64.com/osx/ps.html>
 - <https://ss64.com/osx/ps_keywords.html>

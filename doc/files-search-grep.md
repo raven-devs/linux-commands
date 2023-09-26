@@ -1,6 +1,4 @@
-# Search
-
-## grep
+# Files search: grep
 
 Global Regular Expression Print.
 

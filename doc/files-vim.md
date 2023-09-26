@@ -1,4 +1,4 @@
-# VIM editor
+# Files: vim
 
 ## Open a directory listin
 
