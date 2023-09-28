@@ -1,4 +1,4 @@
-# Rest client: curl
+# HTTP: curl
 
 - <https://medium.com/@dwyer.donovan/sending-http-requests-from-your-command-line-5ef6eecffb0a>
 - <https://curl.se/docs/manpage.html>

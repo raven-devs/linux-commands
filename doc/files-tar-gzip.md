@@ -60,3 +60,31 @@ tar -t -v -f $archive.tar
 
 tar -t -v -f test-tar.tar.gz
 ```
+
+## Compress a file
+
+```bash
+# by default, the original file will be replaced with the compressed version
+gzip $file_path
+
+# use the -c flag to keep the original file and send the compressed data to standard output
+gzip -c $file_path > $file_path.gz
+
+# recursively `-r` compress (or decompress) directories and their contents
+# and keep `-k` the original files when compressing
+gzip -r -k $dir_path
+```
+
+## Decompress a file
+
+```bash
+# by default, the compressed version will be replaced with the original file
+gzip -d $compressed_file.gz
+```
+
+## View the contents of a compressed file without decompress it
+
+```bash
+zless $compressed_file.gz
+zless $compressed_file.gz | grep $search_pattern
+```
