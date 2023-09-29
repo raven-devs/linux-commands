@@ -1,4 +1,4 @@
-# Print: echo
+# Output: echo
 
 ```bash
 echo "some_text"

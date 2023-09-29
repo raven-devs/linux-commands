@@ -1,9 +1,11 @@
 # Connection: ssh
 
+Secure Shell.
+
 ## Create a new ssh session
 
 ```bash
-# Secure Shell
+# basic syntax
 ssh user_name@host_name $sommand
 
 ssh v-sergey@speechservice-dev.lingsoft.fi
@@ -23,14 +25,10 @@ scp $source $destination
 ```bash
 # copy a file from the local machine to a remote server
 scp local-file.txt user@remote-server:/path/to/destination/
-```
 
-```bash
 # copy a file from a remote server to the local machine:
 scp user@remote-server:/path/to/remote-file.txt local-destination/
-```
 
-```bash
 # copy a directory and its contents from the local machine to a remote server
 scp -r local-directory/ user@remote-server:/path/to/destination/
 ```

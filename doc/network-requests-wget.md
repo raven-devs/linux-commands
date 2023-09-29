@@ -1,4 +1,4 @@
-# HTTP: wget
+# Network requests: wget
 
 Download files from the internet.
 

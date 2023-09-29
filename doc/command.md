@@ -1,13 +1,6 @@
-# Command / script
+# Command
 
 ```bash
-# execute a script and assign the result to a variable
-result=$(ls -a) && echo $result
-result1=$(whoami) && result2=$(date) && echo "name: $result1, date: $result2"
-
-# execute a script file
-./$script_file.sh
-
 # run a command in a background
 $command &
 ls -l | lpr &
