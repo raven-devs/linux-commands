@@ -76,3 +76,23 @@ sudo usermod -U username   # unlock the account
 ```bash
 sudo groupadd mygroup
 ```
+
+## Execute commands with the privileges of the superuser or another user
+
+```bash
+# run a command as the superuser (root), the "sudo" command will prompt the user for their password to confirm their identity and then execute the specified command as root
+sudo $command
+
+# to execute a command as a user other than root by specifying the "-u" option
+sudo -u $username $command
+
+# displays a list of available commands that the user can execute with "sudo"
+sudo -l
+
+# to execute a command in a new shell environment with superuser privileges, use the "-i" option
+# this starts a new shell as the superuser, allowing you to execute multiple commands with elevated permissions
+sudo -i
+
+# the "sudoers" configuration file (usually located at "/etc/sudoers") controls who can use "sudo" and what commands they can execute; to edit this file, you should use the "visudo" command, which provides syntax checking to prevent configuration errors
+sudo visudo
+```
