@@ -68,4 +68,13 @@ true > $file_path
 
 # count the number of lines, words, and characters in a file
 wc $file_path
+
+# to calculate number of files in a directory
+ls -l | grep "^-" | wc -l
+
+# ls -l: This command lists the files and directories in the current directory in long format. The long format includes additional information about each file or directory, such as permissions, owner, group, size, and modification time.
+
+# grep "^-": The grep command is used to filter the list of files and directories. In this case, we use grep to only select lines that start with a hyphen -, which indicates regular files. This filters out directories and other special files.
+
+# wc -l: Finally, the wc command with the -l option counts the number of lines in the filtered output. Since each line represents a regular file, this gives you the total number of files in the directory.
 ```
