@@ -77,4 +77,7 @@ ls -l | grep "^-" | wc -l
 # grep "^-": The grep command is used to filter the list of files and directories. In this case, we use grep to only select lines that start with a hyphen -, which indicates regular files. This filters out directories and other special files.
 
 # wc -l: Finally, the wc command with the -l option counts the number of lines in the filtered output. Since each line represents a regular file, this gives you the total number of files in the directory.
+
+# conunt number of commits
+git log --author=spetushkov --since="2023-01-01" --pretty=oneline | wc -l
 ```
