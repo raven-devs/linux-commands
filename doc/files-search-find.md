@@ -33,6 +33,7 @@ find src -name "*.ts"
 find $dir_name -type d
 find src -type d
 find ~/ -type d -name "docs"  # Find all directories named "docs" in the home directory
+find . -type d -name "node_modules"
 
 # find regular files only
 find $dir_name -type f
